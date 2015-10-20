@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+import css from './${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.styl';
+import React, { Component } from 'react';
+
+export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
+
+  /**
+   * Render component ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}
+   */
+  render() {
+    return (
+      <div className={css.${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}}>
+        ${0:}
+      </div>
+    );
+  }
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rComponentStyled</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.jsx</scope> -->
+  <description>Declare source of simple React.Component</description>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+
+/**
+ * Need description for ${1:actionName}
+ */
+export function ${1:actionName}(${2:parameters}) {
+  return ${3:get}('/${4:}')
+    .then((response) => {
+      ${0:}
+      return response;
+    })
+    .catch((error) => {
+      throw error;
+    });
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rAction</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.jsx</scope> -->
+  <description>Make React Action</description>
+</snippet>

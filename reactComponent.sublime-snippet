@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+import React, { Component } from 'react';
+
+export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
+
+  /**
+   * Render component ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}
+   */
+  render() {
+    return (
+      <div>
+        ${0:}
+      </div>
+    );
+  }
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rComponent</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.jsx</scope> -->
+  <description>Declare source of simple React.Component</description>
+</snippet>
