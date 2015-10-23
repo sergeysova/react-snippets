@@ -22,7 +22,7 @@ static defaultProps = {
 
 ---
 
-Trigger: 'propTypes'<br/>
+Trigger: `propTypes`<br/>
 Tab switch: 2<br/>
 Template: `children`, `any`<br/>
 Result:<br/>
