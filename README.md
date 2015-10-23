@@ -9,10 +9,10 @@ Install:
 
 ## Props
 
-Trigger: `defaultProps`
-Tab switch: 2
-Template: `children`, `''`
-Result:
+Trigger: `defaultProps`<br/>
+Tab switch: 2<br/>
+Template: `children`, `''`<br/>
+Result:<br/>
 
 ```js
 static defaultProps = {
@@ -22,10 +22,10 @@ static defaultProps = {
 
 ---
 
-Trigger: 'propTypes'
-Tab switch: 2
-Template: `children`, `any`
-Result:
+Trigger: 'propTypes'<br/>
+Tab switch: 2<br/>
+Template: `children`, `any`<br/>
+Result:<br/>
 
 ```js
 static propTypes = {
@@ -35,10 +35,10 @@ static propTypes = {
 
 ## Imports
 
-Trigger: `imports`
-Tab switch: 2
-Template: `Directory`, `Component`
-Result:
+Trigger: `imports`<br/>
+Tab switch: 2<br/>
+Template: `Directory`, `Component`<br/>
+Result:<br/>
 
 ```js
 import DirectoryComponent from 'Directory/Component/DirectoryComponent';
@@ -46,10 +46,10 @@ import DirectoryComponent from 'Directory/Component/DirectoryComponent';
 
 ## Component
 
-Trigger: `rComponent`
-Tab switch: 1
-Template: `ComponentName`
-Result: 
+Trigger: `rComponent`<br/>
+Tab switch: 1<br/>
+Template: `ComponentName`<br/>
+Result: <br/>
 
 ```js
 
@@ -74,10 +74,10 @@ export default class ComponentName extends Component {
 
 ---
 
-Trigger: `rComponentStyled` (`rcs`)
-Tab switch: 1
-Template: `ComponentName`
-Result:
+Trigger: `rComponentStyled` (`rcs`)<br/>
+Tab switch: 1<br/>
+Template: `ComponentName`<br/>
+Result:<br/>
 
 ```js
 
@@ -104,10 +104,10 @@ export default class ComponentName extends Component {
 
 ---
 
-Trigger: `rBranch` (`rba`)
-Tab switch: 3
-Template: `ComponentName`, `baobab_branch`, `array`
-Result:
+Trigger: `rBranch` (`rba`)<br/>
+Tab switch: 3<br/>
+Template: `ComponentName`, `baobab_branch`, `array`<br/>
+Result:<br/>
 
 ```js
 import React, { Component } from 'react';
@@ -136,10 +136,10 @@ export default class ComponentName extends Component {
 
 ---
 
-Trigger: `rBranchStyled` (`rbs`)
-Tab switch: 3
-Template: `ComponentName`, `baobab_branch`, `array`
-Result:
+Trigger: `rBranchStyled` (`rbs`)<br/>
+Tab switch: 3<br/>
+Template: `ComponentName`, `baobab_branch`, `array`<br/>
+Result:<br/>
 
 ```js
 
@@ -171,10 +171,10 @@ export default class ComponentName extends Component {
 
 ## Actions
 
-Trigger: `rAction` (`rac`)
-Tab switch: 4
-Template: `getAccount`, `userID`, `get`, `account/${userID}`
-Result:
+Trigger: `rAction` (`rac`)<br/>
+Tab switch: 4<br/>
+Template: `getAccount`, `userID`, `get`, `account/${userID}`<br/>
+Result:<br/>
 
 ```js
 
