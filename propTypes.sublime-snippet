@@ -2,7 +2,7 @@
     <content><![CDATA[
 static propTypes = {
   ${1:children}: React.PropTypes.${2:any}
-}
+};
 ]]></content>
     <tabTrigger>propTypes</tabTrigger>
     <description>React: propTypes = { ... }</description>

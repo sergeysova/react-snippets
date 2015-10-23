@@ -2,7 +2,7 @@
     <content><![CDATA[
 static defaultProps = {
   ${1:children}: ${2:''}
-}
+};
 ]]></content>
     <tabTrigger>defaultProps</tabTrigger>
     <description>React: defaultProps = { ... }</description>

@@ -13,6 +13,7 @@ export function ${1:actionName}(${2:parameters}) {
       return response;
     });
 }
+
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>rAction</tabTrigger>
