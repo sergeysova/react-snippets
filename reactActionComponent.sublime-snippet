@@ -7,7 +7,7 @@
  * @returns {Promise}       Thenable/Catcheable
  */
 export function ${1:actionName}(${2:parameters}) {
-  return ${3:get}('/${4:}')
+  return ${3:get}(`/${4:}`)
     .then((response) => {
       ${0:}
       return response;
