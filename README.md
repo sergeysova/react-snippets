@@ -11,7 +11,7 @@ Install:
 
 Trigger: `defaultProps`<br/>
 Tab switch: 2<br/>
-Template: `children`, `''`<br/>
+Template: `1:children`, `2:''`<br/>
 Result:<br/>
 
 ```js
@@ -24,7 +24,7 @@ static defaultProps = {
 
 Trigger: `propTypes`<br/>
 Tab switch: 2<br/>
-Template: `children`, `any`<br/>
+Template: `1:children`, `2:any`<br/>
 Result:<br/>
 
 ```js
@@ -37,7 +37,7 @@ static propTypes = {
 
 Trigger: `imports`<br/>
 Tab switch: 2<br/>
-Template: `Directory`, `Component`<br/>
+Template: `1:Directory`, `2:Component`<br/>
 Result:<br/>
 
 ```js
@@ -48,7 +48,7 @@ import DirectoryComponent from 'Directory/Component/DirectoryComponent';
 
 Trigger: `rComponent`<br/>
 Tab switch: 1<br/>
-Template: `ComponentName`<br/>
+Template: `1:ComponentName`<br/>
 Result: <br/>
 
 ```js
@@ -76,7 +76,7 @@ export default class ComponentName extends Component {
 
 Trigger: `rComponentStyled` (`rcs`)<br/>
 Tab switch: 1<br/>
-Template: `ComponentName`<br/>
+Template: `1:ComponentName`<br/>
 Result:<br/>
 
 ```js
@@ -106,7 +106,7 @@ export default class ComponentName extends Component {
 
 Trigger: `rBranch` (`rba`)<br/>
 Tab switch: 3<br/>
-Template: `ComponentName`, `baobab_branch`, `array`<br/>
+Template: `1:ComponentName`, `2:baobab_branch`, `3:array`<br/>
 Result:<br/>
 
 ```js
@@ -138,7 +138,7 @@ export default class ComponentName extends Component {
 
 Trigger: `rBranchStyled` (`rbs`)<br/>
 Tab switch: 3<br/>
-Template: `ComponentName`, `baobab_branch`, `array`<br/>
+Template: `1:ComponentName`, `2:baobab_branch`, `3:array`<br/>
 Result:<br/>
 
 ```js
@@ -173,7 +173,7 @@ export default class ComponentName extends Component {
 
 Trigger: `rAction` (`rac`)<br/>
 Tab switch: 4<br/>
-Template: `getAccount`, `userID`, `get`, `account/${userID}`<br/>
+Template: `1:getAccount`, `2:userID`, `3:get`, `4:account/${userID}`<br/>
 Result:<br/>
 
 ```js
