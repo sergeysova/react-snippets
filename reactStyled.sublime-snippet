@@ -1,7 +1,10 @@
 <snippet>
   <content><![CDATA[
+
+import CN from 'classnames';
 import css from './${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}.styl';
 import React, { Component } from 'react';
+
 
 export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
 
@@ -10,7 +13,7 @@ export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Compone
    */
   render() {
     return (
-      <div className={css.${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}}}>
+      <div className={CN(css.${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}})}>
         ${0:}
       </div>
     );

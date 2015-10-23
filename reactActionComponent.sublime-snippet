@@ -2,16 +2,15 @@
   <content><![CDATA[
 
 /**
- * Need description for ${1:actionName}
+ * !<Need description for ${1:actionName}>!
+ *
+ * @returns {Promise}       Thenable/Catcheable
  */
 export function ${1:actionName}(${2:parameters}) {
   return ${3:get}('/${4:}')
     .then((response) => {
       ${0:}
       return response;
-    })
-    .catch((error) => {
-      throw error;
     });
 }
 ]]></content>

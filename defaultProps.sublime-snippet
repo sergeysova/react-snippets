@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 static defaultProps = {
-  ${1}: ${2}
+  ${1:children}: ${2:''}
 }
 ]]></content>
     <tabTrigger>defaultProps</tabTrigger>
