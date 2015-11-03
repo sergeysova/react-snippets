@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+static childContextTypes = {
+  ${1:name}: React.PropTypes.${2:string}
+};
+
+getChildContext() {
+  return {
+    ${1:name}: ${2:"value"}
+  };
+}
+]]></content>
+    <tabTrigger>childContextTypes</tabTrigger>
+    <description>React: childContextTypes = { ... }</description>
+</snippet>
