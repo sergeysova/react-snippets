@@ -4,6 +4,24 @@ Install:
 
 ```bash
 ./installMac
+# snippets will be copy to `~/Library/Application Support/Sublime Text 3/Packages/User/react`
+```
+
+Uninstall:
+
+```bash
+./uninstallMac
+```
+
+
+For other platforms:
+
+```bash
+# Install
+cp -r ./*.sublime-snippet ~/.Sublime\ Text\ 3/Packages/User/react
+
+# Remove
+rm -rf ~/.Sublime\ Text\ 3/Packages/User/react
 ```
 
 
