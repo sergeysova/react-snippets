@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+${1:$SELECTION}: React.PropTypes.${2:}
+]]></content>
+    <description>Create: $selection: React.PropTypes.any</description>
+</snippet>
