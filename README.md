@@ -33,6 +33,38 @@ static propTypes = {
 };
 ```
 
+## Context
+
+Trigger: `getChildContext`<br/>
+Tab switch: 2<br/>
+Template: `1:name`, `2:string`<br/>
+Result:<br/>
+
+```js
+static childContextTypes = {
+  name: React.PropTypes.string
+};
+
+getChildContext() {
+  return {
+    name: string
+  };
+}
+```
+
+---
+
+Trigger: `contextTypes`<br/>
+Tab switch: 2<br/>
+Template: `1:name`, `2:string`<br/>
+Result:<br/>
+
+```js
+static contextTypes = {
+  name: React.PropTypes.string
+};
+```
+
 ## Imports
 
 Trigger: `imports`<br/>
