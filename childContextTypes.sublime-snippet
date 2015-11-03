@@ -10,6 +10,6 @@ getChildContext() {
   };
 }
 ]]></content>
-    <tabTrigger>childContextTypes</tabTrigger>
+    <tabTrigger>getChildContext</tabTrigger>
     <description>React: childContextTypes = { ... }</description>
 </snippet>
