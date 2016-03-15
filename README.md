@@ -1,16 +1,34 @@
 # Snippets for sublime react
 
+
+## Mac OS X
+
 Install:
 
 ```bash
 ./installMac
-# snippets will be copy to `~/Library/Application Support/Sublime Text 3/Packages/User/react`
+# snippets will be copied to `~/Library/Application Support/Sublime Text 3/Packages/User/react`
 ```
 
 Uninstall:
 
 ```bash
 ./uninstallMac
+```
+
+## Ubuntu
+
+Install:
+
+```bash
+./installUbuntu
+# snippets will be copied to `~/.config/sublime-text-3/Packages/User/react`
+```
+
+Uninstall:
+
+```bash
+./uninstallUbuntu
 ```
 
 
@@ -114,7 +132,7 @@ export default class ComponentName extends Component {
   render() {
     return (
       <div>
-        
+
       </div>
     );
   }
@@ -144,7 +162,7 @@ export default class ComponentName extends Component {
   render() {
     return (
       <div className={CN(css.ComponentName)}>
-        
+
       </div>
     );
   }
@@ -176,7 +194,7 @@ export default class ComponentName extends Component {
   render() {
     return (
       <div>
-        
+
       </div>
     );
   }
@@ -211,7 +229,7 @@ export default class ComponentName extends Component {
   render() {
     return (
       <div className={CN(css.ComponentName)}>
-        
+
       </div>
     );
   }
@@ -236,7 +254,7 @@ Result:<br/>
 export function getAccount(userID) {
   return get(`/account/${userID}`)
     .then((response) => {
-      
+
       return response;
     });
 }
